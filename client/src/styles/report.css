@@ -1,0 +1,100 @@
+.reportPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.reportPage .basicDetails{
+    min-height: 250px;
+}
+
+.more{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#testDesc{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.reportActions{
+
+    width: 90%;
+    height: 70px;
+    background-color: #e5e6e6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftOne{
+    margin: 0px 15px;
+}
+
+
+.rightOne{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#reports {
+    padding: 5px 10px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px 25px;
+    padding-bottom: 30px;
+}
+
+.reportFilesImages {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    margin: 0px 25px;
+    overflow-x: auto;
+}
+
+#reportText{
+    display: none;
+}
+#noReportH4{
+    display: none;
+}
+
+#reportPart{
+    display: none;
+    padding-top: 25px;
+    background-color: #d5d5d5;
+}
+
+.greenBgNonChangable{
+    background-color: rgb(44, 255, 44);
+}
+
+
+.greyBg{
+    background-color: #cccbcb;
+}
+.greyBg:hover{
+    background-color: #aeaeae;
+}
+
+.goBack{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    color: black;
+}
+#backBtn{
+    font-size: 45px;
+    padding: 0px 15px;
+    background-color: #aeaeae;
+    border-radius: 10px;
+    margin: 8px 25px;
+}
